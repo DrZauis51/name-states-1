@@ -12,7 +12,7 @@ public class EnemyController : MonoBehaviour
     private EnemyState currentState = EnemyState.Idle;
     private SpriteRenderer sr;
     // The value we found in Debug.Log above.
-    private const float SIGHT_DISTANCE = 14.0f;
+    private const float SIGHT_DISTANCE = 8.0f;
     // The two points that the Enemy will move between in the Moving state.
     private const float RIGHT_MAX = 27.5f;
     private const float LEFT_MAX = 22.5f;
